@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Drivern FW" duration-ms="2059" started-at="2019-02-16T14:19:26Z" finished-at="2019-02-16T14:19:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.duke.testRunner.TestRunner@56ef9176]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="LoginTest" duration-ms="2059" started-at="2019-02-16T14:19:26Z" finished-at="2019-02-16T14:19:28Z">
+      <class name="com.duke.testRunner.TestRunner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.duke.testRunner.TestRunner@56ef9176]" name="beforeSuite" is-config="true" duration-ms="13744" started-at="2019-02-16T19:49:12Z" finished-at="2019-02-16T19:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.duke.testRunner.TestRunner@56ef9176]" name="setUpClass" is-config="true" duration-ms="314" started-at="2019-02-16T19:49:26Z" finished-at="2019-02-16T19:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.duke.testRunner.TestRunner@56ef9176]" name="runScenario" duration-ms="1206" started-at="2019-02-16T19:49:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-02-16T19:49:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.duke.testRunner.TestRunner@56ef9176]" name="tearDownClass" is-config="true" duration-ms="320" started-at="2019-02-16T19:49:28Z" finished-at="2019-02-16T19:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.duke.testRunner.TestRunner@56ef9176]" name="afterSuite" is-config="true" duration-ms="823" started-at="2019-02-16T19:49:28Z" finished-at="2019-02-16T19:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.duke.testRunner.TestRunner -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Data Drivern FW -->
+</testng-results>
